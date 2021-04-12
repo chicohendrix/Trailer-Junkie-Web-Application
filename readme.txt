@@ -1,4 +1,4 @@
-Project Sprint One
+Project Sprint Two
 Movie Database Application 
 IST 256 | Dr. Haynes | Prof. Delane
 
