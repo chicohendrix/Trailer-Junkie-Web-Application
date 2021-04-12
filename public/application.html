@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="stylesheets/appStyle.css" />
+    <title>Trailer Junkies</title>
+  </head>
+  <body>
+
+      <nav>
+        <!--create names for each page on menu with links-->
+        <ul class="pages">
+          <li><a href="popularMovies.html">Home</a></li>
+          <li><a href="topRated.html">Top Rated</a></li>
+          <li><a href="trendingMovies.html">Trending</a></li>
+          <li><a href="application.html">Popular</a></li>
+          <li><a href="upcomingMovies.html">Upcoming</a></li>
+          <li><a href="http://localhost:3000/employee">Watch List</a></li>  
+        </ul>
+        <!--create search bar-->
+    </nav>
+    <div class="container">
+      <h1>Popular Seasonal Movies</h1>
+      <form>
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Search..."
+          />
+        </div>
+
+        <button type="submit" class="btn" id="search">
+          Search for a movie title
+        </button>
+      </form>
+
+      <div id="movies-searchable"></div>
+      <div id="movies-container"></div>
+    </div>
+
+    <script src="scripts/apiTransaction.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <footer>
+      <table style ="width:100%">
+      <tr>
+          <th>Project Sprint One</th>
+          <th>&#64;Ritvik Kumar K, Neil Porterfield, Nicholas Gerardi, Victor Garday</td>
+      </tr>
+      </table>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
+
+  </body>
+</html>
