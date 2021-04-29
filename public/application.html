@@ -10,6 +10,14 @@
   </head>
   <body>
 
+    <form method= "POST" action= "/api/movieData">
+      <label for = "Username">Username:</label>
+      <input type="text" name="username">
+      <label for = "Password">Password:</label>
+      <input type="text" name="password">
+      <input type="submit" name="Submit">
+    </form>
+
       <nav>
         <!--create names for each page on menu with links-->
         <ul class="pages">
@@ -18,8 +26,8 @@
           <li><a href="trendingMovies.html">Trending</a></li>
           <li><a href="application.html">Popular</a></li>
           <li><a href="upcomingMovies.html">Upcoming</a></li>
-          <li><a href="watchList.html">Watch List</a></li> 
-          <li><a href="movieWatchList.html">Movie Watch List</a></li>      
+          <li><a href="movieWatchList.html">Movie Watch List</a></li>  
+          <li><a href="/views/index.ejs">More</a></li>
         </ul>
         <!--create search bar-->
     </nav>
