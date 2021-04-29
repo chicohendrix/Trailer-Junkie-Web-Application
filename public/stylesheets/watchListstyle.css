@@ -1,0 +1,86 @@
+body {
+  background-color: #459797;
+  }
+  .title{
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .form{
+      margin: auto;
+      max-width:400px;
+      text-align: center
+  }
+
+  input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+  }
+  #edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  td{
+      background-color: rgba(82, 74, 74, 0.089);
+      padding-right: 10px;
+      text-align: left;
+  }
+
+  .to-do{
+      background: transparent !important;
+  }
+  
+  li{ 
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  /*movie display*/
+  nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    border:1px solid rgba(0,0,0,0.04);
+    background-color: #3a3939;
+    left: 50px;
+    top: -100;
+    z-index: 1;
+    display:inline-block;
+    text-align: center;
+
+  }
+  
+  nav .pages{
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+  }
+  
+  /*edit text in the menu bar*/
+  nav .pages li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 0px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color:#FBFBFB;
+    text-align: center;
+    display:inline-block;
+  }
+  
+ 
+  nav .pages li a:hover{
+    background-color: #9f9f9f;
+  }
+
+  

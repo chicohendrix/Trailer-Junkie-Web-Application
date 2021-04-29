@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Watch List</title>
+  <link rel="stylesheet" type="text/css" href="stylesheets/watchListstyle.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+  <nav>
+    <!--create names for each page on menu with links-->
+    <ul class="pages">
+      <li><a href="popularMovies.html">Home</a></li>
+      <li><a href="topRated.html">Top Rated</a></li>
+      <li><a href="trendingMovies.html">Trending</a></li>
+      <li><a href="application.html">Popular</a></li>
+      <li><a href="upcomingMovies.html">Upcoming</a></li>
+      <li><a href="watchList.html">Watch List</a></li>
+      <li><a href="movieWatchList.html">Movie Watch List</a></li>         
+    </ul>
+    <!--create search bar-->
+  </nav>
+
+    <div class="title">
+        <h1>---------</h1>
+        <h1>Movie Watch List</h1>
+        <p>Keep track of the movies you want to watch </p>
+    </div>
+
+<div class="form">
+    <form action="javascript:void(0);" method="POST" onsubmit="app.Add()"> 
+    <input type="text" id="add-todo" placeholder="Thing To-Do">
+    <input type="submit" value="Add" class="btn btn-primary">
+    </form>
+    <p>Movie Count: </p>
+    <p id="counter"></p>
+
+    <table>
+    <tr class="to-do">
+        <th><h3>List:</h3></th>
+    </tr>
+        <tbody id="tasks">
+        </tbody>
+    </table>
+</div>
+
+<div id="edit-box" role="aria-hidden">
+    <form action="javascript:void(0);" method="POST" id="save-edit">
+      <input type="text" id="edit-todo">
+      <input type="submit" value="Save" class="btn btn-success"/> <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+    </form>
+  </div>
+
+<script src="scripts/watchListscript.js"></script>
+</body>
+</html>

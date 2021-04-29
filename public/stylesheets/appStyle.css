@@ -200,4 +200,25 @@ p{
     width: 100%;
     margin-top: 10rem;
   }
+  
+  .title{
+    text-align: center;
+    margin-top: 25px;
+  }
+
+  .form{
+      margin: auto;
+      max-width:400px;
+      text-align: center
+  }
+
+  input[type='submit'], button, [aria-label]{
+    cursor: pointer;
+  }
+  #edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+  }
 
